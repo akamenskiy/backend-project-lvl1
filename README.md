@@ -3,3 +3,6 @@
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/akamenskiy/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/akamenskiy/backend-project-lvl1/actions)
+
+### isEven Demo
+[![asciicast](https://asciinema.org/a/2obUFVPaap1y4Ant6h52C3FhL.svg)](https://asciinema.org/a/2obUFVPaap1y4Ant6h52C3FhL)
