@@ -18,7 +18,7 @@ const init = () => {
   do {
     const number = getRandomNumber();
     console.log(`Question: ${number}`);
-    const answer = getAnswer(number);
+    const answer = getAnswer();
     const correctAnswer = isEven(number);
     if (correctAnswer !== answer) {
       console.log(getErrorMessage(name, answer, correctAnswer));
