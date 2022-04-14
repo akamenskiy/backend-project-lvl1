@@ -2,4 +2,4 @@
 import { gameType } from '../src/utils.js';
 import playGame from '../src/index.js';
 
-playGame(gameType.BRAIN_EVEN);
+playGame(gameType.BRAIN_CALC);

@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
-import { gameType } from './constants.js';
+import { gameType } from './utils.js';
 import BrainEven from './games/even.js';
+import BrainCalc from './games/calc.js';
+import greetings from './cli.js';
 
 const askName = () => readlineSync.question('May I have your name? ');
 const getCongratsMessage = (name) => `Congratulations, ${name}!`;
@@ -33,6 +35,12 @@ const playGame = (type) => {
   switch (type) {
     case gameType.BRAIN_EVEN:
       runRounds(name, BrainEven);
+      break;
+    case gameType.BRAIN_CALC:
+      runRounds(name, BrainCalc);
+      break;
+    default:
+      greetings();
   }
 };
 
