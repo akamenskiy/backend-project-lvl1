@@ -23,12 +23,9 @@ const getFullExercise = () => {
   return [question, correctAnswer];
 };
 
-const getErrorMessage = (name, answer, correctAnswer) => `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\n Let's try again, ${name}!`;
-
 const BrainCalc = {
   RULES,
   getFullExercise,
-  getErrorMessage,
 };
 
 export default BrainCalc;

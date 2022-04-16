@@ -7,6 +7,7 @@ import BrainGCD from './games/gcd.js';
 
 const askName = () => readlineSync.question('May I have your name? ');
 const getCongratsMessage = (name) => `Congratulations, ${name}!`;
+const getErrorMessage = (name, answer, correctAnswer) => `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\n Let's try again, ${name}!`;
 const getAnswer = () => readlineSync.question('Your answer: ');
 
 let counter = 0;
@@ -17,7 +18,7 @@ const runRounds = (name, game) => {
     console.log(`Question: ${question}`);
     const answer = getAnswer();
     if (correctAnswer !== answer) {
-      console.log(game.getErrorMessage(name, answer, correctAnswer));
+      console.log(getErrorMessage(name, answer, correctAnswer));
       return;
     }
     console.log('Correct');
