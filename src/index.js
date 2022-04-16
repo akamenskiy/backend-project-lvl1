@@ -3,6 +3,7 @@ import { gameType } from './utils.js';
 import BrainEven from './games/even.js';
 import BrainCalc from './games/calc.js';
 import greetings from './cli.js';
+import BrainGCD from './games/gcd.js';
 
 const askName = () => readlineSync.question('May I have your name? ');
 const getCongratsMessage = (name) => `Congratulations, ${name}!`;
@@ -37,6 +38,9 @@ const playGame = (type) => {
       break;
     case gameType.BRAIN_CALC:
       runRounds(name, BrainCalc);
+      break;
+    case gameType.BRAIN_GCD:
+      runRounds(name, BrainGCD);
       break;
     default:
       greetings();
