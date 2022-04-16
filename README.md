@@ -6,3 +6,6 @@
 
 ### isEven Demo
 [![asciicast](https://asciinema.org/a/2obUFVPaap1y4Ant6h52C3FhL.svg)](https://asciinema.org/a/2obUFVPaap1y4Ant6h52C3FhL)
+
+### Calc Demo
+[![asciicast](https://asciinema.org/a/SfHDVeZcZJ68f8sb96A1ol4PS.svg)](https://asciinema.org/a/SfHDVeZcZJ68f8sb96A1ol4PS)
