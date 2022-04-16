@@ -12,10 +12,9 @@ let counter = 0;
 const runRounds = (name, game) => {
   console.log(game.RULES);
   do {
-    const question = game.getQuestion();
+    const [question, correctAnswer] = game.getFullExercise();
     console.log(`Question: ${question}`);
     const answer = getAnswer();
-    const correctAnswer = game.getCorrectAnswer(question);
     if (correctAnswer !== answer) {
       console.log(game.getErrorMessage(name, answer, correctAnswer));
       return;
