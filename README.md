@@ -9,3 +9,6 @@
 
 ### Calc Demo
 [![asciicast](https://asciinema.org/a/SfHDVeZcZJ68f8sb96A1ol4PS.svg)](https://asciinema.org/a/SfHDVeZcZJ68f8sb96A1ol4PS)
+
+### GCD Demo
+[![asciicast](https://asciinema.org/a/ZiKI4llcD9RqTlWbFhvkf8ZQV.svg)](https://asciinema.org/a/ZiKI4llcD9RqTlWbFhvkf8ZQV)
