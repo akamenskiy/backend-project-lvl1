@@ -11,3 +11,4 @@ rules:
     - ignorePackages
     - js: always
   no-console: off
+  implicit-arrow-linebreak: off

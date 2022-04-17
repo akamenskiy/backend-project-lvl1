@@ -3,8 +3,8 @@ import { getRandomNumber } from '../utils.js';
 const RULES = 'Find the greatest common divisor of given numbers.';
 
 const getFullExercise = () => {
-  const a = getRandomNumber(101);
-  const b = getRandomNumber(101);
+  const a = getRandomNumber(100, 2);
+  const b = getRandomNumber(100, 2);
 
   const question = `${a} ${b}`;
   const findGCD = (num1, num2) => {
