@@ -3,6 +3,7 @@ export const gameType = {
   BRAIN_CALC: 'BrainCalc',
   BRAIN_GCD: 'BrainGCD',
   BRAIN_PROGRESSION: 'BrainProgression',
+  BRAIN_PRIME: 'BrainPrime',
 };
 
 export const getRandomNumber = (max = 100, min = 0) =>

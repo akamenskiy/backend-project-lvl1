@@ -1,8 +1,9 @@
-import BrainEven from './Even/even.js';
-import BrainCalc from './Calc/calc.js';
-import BrainGCD from './GCD/gcd.js';
-import BrainProgression from './Progression/progression.js';
+import BrainEven from './even/even.js';
+import BrainCalc from './calc/calc.js';
+import BrainGCD from './gcd/gcd.js';
+import BrainProgression from './progression/progression.js';
+import BrainPrime from './prime/prime.js';
 
 export {
-  BrainEven, BrainCalc, BrainGCD, BrainProgression,
+  BrainEven, BrainCalc, BrainGCD, BrainProgression, BrainPrime,
 };

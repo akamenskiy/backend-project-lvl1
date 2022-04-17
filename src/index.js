@@ -6,6 +6,7 @@ import {
   BrainCalc,
   BrainGCD,
   BrainProgression,
+  BrainPrime,
 } from './games/index.js';
 
 const askName = () => readlineSync.question('May I have your name? ');
@@ -49,6 +50,9 @@ const playGame = (type) => {
       break;
     case gameType.BRAIN_PROGRESSION:
       runRounds(name, BrainProgression);
+      break;
+    case gameType.BRAIN_PRIME:
+      runRounds(name, BrainPrime);
       break;
     default:
       greetings();
