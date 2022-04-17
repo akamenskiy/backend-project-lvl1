@@ -11,8 +11,7 @@ import {
 
 const askName = () => readlineSync.question('May I have your name? ');
 const getCongratsMessage = (name) => `Congratulations, ${name}!`;
-const getErrorMessage = (name, answer, correctAnswer) =>
-  `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\n Let's try again, ${name}!`;
+const getErrorMessage = (name, answer, correctAnswer) => `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\n Let's try again, ${name}!`;
 const getAnswer = () => readlineSync.question('Your answer: ');
 
 let counter = 0;
