@@ -1,13 +1,17 @@
 import readlineSync from 'readline-sync';
 import { gameType } from './utils.js';
-import BrainEven from './games/even.js';
-import BrainCalc from './games/calc.js';
 import greetings from './cli.js';
-import BrainGCD from './games/gcd.js';
+import {
+  BrainEven,
+  BrainCalc,
+  BrainGCD,
+  BrainProgression,
+} from './games/index.js';
 
 const askName = () => readlineSync.question('May I have your name? ');
 const getCongratsMessage = (name) => `Congratulations, ${name}!`;
-const getErrorMessage = (name, answer, correctAnswer) => `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\n Let's try again, ${name}!`;
+const getErrorMessage = (name, answer, correctAnswer) =>
+  `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\n Let's try again, ${name}!`;
 const getAnswer = () => readlineSync.question('Your answer: ');
 
 let counter = 0;
@@ -42,6 +46,9 @@ const playGame = (type) => {
       break;
     case gameType.BRAIN_GCD:
       runRounds(name, BrainGCD);
+      break;
+    case gameType.BRAIN_PROGRESSION:
+      runRounds(name, BrainProgression);
       break;
     default:
       greetings();
