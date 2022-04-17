@@ -12,3 +12,6 @@
 
 ### GCD Demo
 [![asciicast](https://asciinema.org/a/ZiKI4llcD9RqTlWbFhvkf8ZQV.svg)](https://asciinema.org/a/ZiKI4llcD9RqTlWbFhvkf8ZQV)
+
+### Progression Demo
+[![asciicast](https://asciinema.org/a/yT8xEDrB5CpYNtGjqdoRzBgwr.svg)](https://asciinema.org/a/yT8xEDrB5CpYNtGjqdoRzBgwr)
